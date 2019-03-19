@@ -1,0 +1,20 @@
+{
+  "name": "styleshell",
+  "version": "1.0.0",
+  "description": "Lightweight CSS Framework",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kdawson133",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "jquery": "^3.3.1"
+  }
+}

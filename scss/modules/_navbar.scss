@@ -1,0 +1,67 @@
+// Navigation Bar
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+nav {
+  border-bottom: solid 1px #efefef;
+  min-height: 60px;
+  background: #fff;
+  .wrap-core-nav-list, .nav-header {
+    background: #fff;
+  }
+  .brand {
+    display: block;
+    position: relative;
+    width: 150px;
+    top: 20px;
+    img {
+      width: 100%;
+    }
+  }
+  .menu li {
+    a {
+      display: block;
+      padding: 20px 25px;
+      text-decoration: none;
+      color: #3a3a3a;
+    }
+    &.active > a, a:hover {
+      color: #e74c3c;
+    }
+  }
+  button {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+}
+
+@media (max-width: 992px) {
+  nav {
+    .full-container, .nav-container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .nav-header {
+      min-height: 60px;
+      .brand {
+        margin: 0 auto 5px;
+        float: none;
+      }
+      .toggle-bar {
+        font-size: 18px;
+        position: absolute;
+        top: 17px;
+        left: 15px;
+      }
+    }
+    .menu li {
+      a {
+        padding: 10px 10px;
+        border-bottom: solid 1px #efefef;
+      }
+      &:last-child a {
+        border-bottom: none;
+      }
+    }
+  }
+}
