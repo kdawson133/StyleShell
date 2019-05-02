@@ -10,11 +10,11 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "jquery": "^3.4.1"
   },
   "dependencies": {
     "gulp-minify-css": "^1.2.4",
-    "gulp-rename": "^1.4.0",
-    "jquery": "^3.3.1"
+    "gulp-rename": "^1.4.0"
   }
 }
