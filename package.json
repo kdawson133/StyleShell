@@ -11,10 +11,15 @@
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "tar": "^4.4.8"
   },
   "dependencies": {
     "gulp-minify-css": "^1.2.4",
     "gulp-rename": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdawson133/styleshell.git"
   }
 }
