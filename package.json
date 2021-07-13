@@ -1,25 +1,29 @@
 {
   "name": "styleshell",
   "version": "1.0.0",
-  "description": "Lightweight CSS Framework",
+  "description": "css framework",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "kdawson133",
-  "license": "MIT",
-  "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2",
-    "jquery": "^3.4.1",
-    "tar": "^4.4.8"
-  },
-  "dependencies": {
-    "gulp-minify-css": "^1.2.4",
-    "gulp-rename": "^1.4.0"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kdawson133/styleshell.git"
+    "url": "git+https://github.com/kdawson133/StyleShell.git"
+  },
+  "author": "kdawson133",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdawson133/StyleShell/issues"
+  },
+  "homepage": "https://github.com/kdawson133/StyleShell#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
   }
 }
